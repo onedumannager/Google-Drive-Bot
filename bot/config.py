@@ -19,13 +19,13 @@ class BotCommands:
   Ytdl = ['ytdl']
 
 class Messages:
-    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
+    START_MSG = "**ආයුබෝවන් {}**\n  ප්‍රථම සිංහල Google Drive bot  වෙත සාදරයෙන් පිලිගන්නවා\n Bot බාවිතා කරන ආකාරය ගැන දැනගැනීමට /help විදානය බාවිතා කරන්න...."
 
     HELP_MSG = [
         ".",
-        "**Google Drive Uploader**\n__I can upload files from direct link or Telegram Files to your Google Drive. All i need is to authenticate me to your Google Drive Account and send a direct download link or Telegram File.__\n\nI have more features... ! Wanna know about it ? Just walkthrough this tutorial and read the messages carefully.",
+        "**SL Gdrive Uploder**\n ඔබ ලබාදෙන direct link එකක් හෝ Telegram Files ඩේටා වියදමකින් තොරව ඔබගේ Drive ෆෝල්ඩරය වෙත uplode කිරීමට මට පුළුවන්. ඊට අවශ්‍ය වන්නේ Gdrive අවසර ලබාදීම පමණි.__\n\n මට තවත් විශේෂාංග තිබේ ...! ඒ ගැන දැන ගැනීමට අවශ්යද? පහත බොත්තම් උපයෝගී කරගෙන තවත් විස්තර ලබාගන්න ",
         
-        f"**Authenticating Google Drive**\n__Send the /{BotCommands.Authorize[0]} commmand and you will receive a URL, visit URL and follow the steps and send the received code here. Use /{BotCommands.Revoke[0]} to revoke your currently logged Google Drive Account.__\n\n**Note: I will not listen to any command or message (except /{BotCommands.Authorize[0]} command) until you authorize me.\nSo, Authorization is mandatory !**",
+        f"**Google Drive වෙත අවසර ගැනීමට**\n /{BotCommands.Authorize[0]} ලෙස ටයිප් කර මට එවූ විට ලැබෙන URL වීවෘත කර අදාල උපදෙස් පිලිපැදීමෙන් ලැබෙන **කේතය** මට එවන්න. /{BotCommands.Revoke[0]} \n\n**Note: I will not listen to any command or message (except /{BotCommands.Authorize[0]} command) until you authorize me.\nSo, Authorization is mandatory !**",
         
         f"**Direct Links**\n__Send me a direct download link for a file and i will download it on my server and Upload it to your Google Drive Account. You can rename files before uploading to GDrive Account. Just send me the URL and new filename separated by ' | '.__\n\n**__Examples:__**\n```https://example.com/AFileWithDirectDownloadLink.mkv | New FileName.mkv```\n\n**Telegram Files**\n__To Upload telegram files in your Google drive Account just send me the file and i will download and upload it to your Google Drive Account. Note: Telegram Files Downloading are slow. it may take longer for big files.__\n\n**YouTube-DL Support**\n__Download files via youtube-dl.\nUse /{BotCommands.Ytdl[0]} (YouTube Link/YouTube-DL Supported site link)__",
         
