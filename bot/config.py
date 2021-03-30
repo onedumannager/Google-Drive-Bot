@@ -2,7 +2,7 @@ class config:
     BOT_TOKEN = "1674053662:AAE_h5WCpwoeUnZi1ydMvt49B3vFbxl9Q4o"
     APP_ID = "3541280"
     API_HASH = "f2982139e0e571215dd2fe872f422ca3"
-    DATABASE_URL = "postgres://rgzfizxotdnejq:0008056f777e9652f8dafb51866161f23fa0c6c187ac53a12bd39e7c0bee3e6a@ec2-3-215-40-176.compute-1.amazonaws.com:5432/d7tis35cbvm46c"
+    DATABASE_URL = "mongodb+srv://Lasiya: Lasiya@cluster0.ghup3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     SUDO_USERS = "1082702383" # Sepearted by space.
     SUPPORT_CHAT_LINK = "https://t.me/danuma01"
     DOWNLOAD_DIRECTORY = "./downloads/"
