@@ -29,29 +29,29 @@ class Messages:
         
         f"**Direct Links**\n  direct download link එකක් එවූ විට කෙලින්ම ඔබගේ Drive ගිණුමට උඩු ගත කල හැකි අතර  files rename කර උඩුගත කිරිඉමට මේ ආකාරය යොදාගන්න **\n\n ```https://example.com/AFileWithDirectDownloadLink.mkv | New FileName.mkv```\n\n **Telegram Files**\n ලේසිම ක්‍රමය 😁 ගිණුමට අවසර ලබාදුන් පසු බොත වෙත ෆෝවඩ් කරන files ඔබගේ drive ගිණුමට උඩුගත වේ.  Note: Telegram File එකෙහි විශාලත්වය මත උඩුගත වන කාලය වෙනස් විය හැක \n\n **YouTube-DL Support**\n YOUTUBE වීඩියෝ කෙලින්ම drive ගිණුම යැවීමට වලංගු යුඋටියුබ් ලින්කුවක් බොට් වෙත එවන්න \nUse /{BotCommands.Ytdl[0]} ඉබෙම උඩුගත වුයේ නැතිනම් මෙම විධානය ලිෂ්කුවට රිප්ලයි කරන්න",
         
-        f"**Custom Folder for Upload**\n__Want to upload in custom folder or in__ **TeamDrive** __ ?\nUse /{BotCommands.SetFolder[0]} (Folder URL) to set custom upload folder.\nAll the files are uploaded in the custom folder you provide.__",
+        f"**Custom Folder for Upload**\n **TeamDrive** තුල වෙනත් ෆෝල්ඩරයක් සාදාගැනීමට \nUse /{BotCommands.SetFolder[0]} (Folder URL/drive ගිණුම තුල ඔබ සෑදු ෆෝල්ඩරයට අදාල ලින්කුව ) ලෙස බොට් වෙත එවන්න .\n ඉන්පසු ඔබ උඩුගත කරන සියල්ල ඒ තුලට උඩුගත වනු ඇත ",
         
-        f"**Delete Google Drive Files**\n__Delete google drive files. Use /{BotCommands.Delete[0]} (File/Folder URL) to delete file.\nYou can also empty trash files use /{BotCommands.EmptyTrash[0]}\nNote: Files are deleted permanently. This process cannot be undone.\n\n**Copy Google Drive Files**\n__Yes, Clone or Copy Google Drive Files.\n__Use /{BotCommands.Clone[0]} (File id / Folder id or URL) to copy Google Drive Files in your Google Drive Account.__",
+        f"**Delete Google Drive Files**\n drive ගිණුමෙහි ඇති FILE හෝ ෆෝල්ඩර් Delete කිරිඉමට  /{BotCommands.Delete[0]} (File/Folder URL) ලෙස බෝට් වෙත එවන්න .\n එලෙසම TRASH files delete කිරිමට  /{BotCommands.EmptyTrash[0]} විධානය දෙන්න \n Note: අදාල ගොනු සදාකාලිකව මකියනුඇත. \n",
         
-        "**Rules & Precautions**\n__1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow  it first.\n4. Don't misuse, overload or abuse this free service.__",
+        "**Rules & Precautions**\n__1. කිසිවිටෙකත් විශාල files කොපි කිරිඉමෙන් වලකින්න . එමගින් බොට් හෝ ඔබගේ ගොනු විකුර්ති විය හැක \n2. වරකට එක ඉල්ලීමක් බැගින් බොට් වෙත යොමු කරන්න.\n3. බොට්ව අවබාවිතයෙන් වලකින්න ඔබව බෑන් විය හැක.\",
         
         # Dont remove this ↓ if you respect developer.
         "**Developed by SLdevilX**"
         ]
      
-    RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
+    RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **දිනකට ලබාදෙන ප්‍රමනය ඔබ බාවිතා කර අවසන් **\n බොට් UPGRADE කරගන්න හෝ පය 24 කින් පසුව උත්සහ කරන්න "
     
-    FILE_NOT_FOUND_MESSAGE = "❗ **File/Folder not found.**\n__File id - {} Not found. Make sure it\'s exists and accessible by the logged account.__"
+    FILE_NOT_FOUND_MESSAGE = "❗ **File/Folder සොයාගත නොහැක .**\n__File id - {} 😒 . එය වලංගු ගොනුවක්ද හා ඔබ නිසිලෙස ගිණුමට අවසර ලබාගෙනද යන්න සොයා බලන්න "
     
-    INVALID_GDRIVE_URL = "❗ **Invalid Google Drive URL**\nMake sure the Google Drive URL is in valid format."
+    INVALID_GDRIVE_URL = "❗ **වැරදි Google Drive URL එකකි **\n නිවැරදි ලින්කුවක් එවන්න "
     
-    COPIED_SUCCESSFULLY = "✅ **Copied successfully.**\n[{}]({}) __({})__"
+    COPIED_SUCCESSFULLY = "✅ **සාර්ථකව COPY කරනලදී**\n[{}]({}) __({})__"
     
-    NOT_AUTH = f"🔑 **You have not authenticated me to upload to any account.**\n__Send /{BotCommands.Authorize[0]} to authenticate.__"
+    NOT_AUTH = f"🔑 **ඔබ කිසිදු ගිණුමක් සදහා අවසර ලබාගෙන නැත **\n /{BotCommands.Authorize[0]} විධානය මගින් අවසර ලබාදෙන්න "
     
     DOWNLOADED_SUCCESSFULLY = "📤 **Uploading File...**\n**Filename:** ```{}```\n**Size:** ```{}```"
     
-    UPLOADED_SUCCESSFULLY = "✅ **Uploaded Successfully.**\n[{}]({}) __({})__"
+    UPLOADED_SUCCESSFULLY = "✅ **සාර්ථකව උඩුගතවිය .**\n[{}]({}) __({})__"
     
     DOWNLOAD_ERROR = "❗**Downloader Failed**\n{}\n__Link - {}__"
     
