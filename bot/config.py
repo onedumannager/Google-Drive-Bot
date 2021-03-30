@@ -53,42 +53,42 @@ class Messages:
     
     UPLOADED_SUCCESSFULLY = "✅ **සාර්ථකව උඩුගතවිය .**\n[{}]({}) __({})__"
     
-    DOWNLOAD_ERROR = "❗**Downloader Failed**\n{}\n__Link - {}__"
+    DOWNLOAD_ERROR = "❗**බාගත කිරීමට නොහැක**\n{}\n__Link - {}__"
     
-    DOWNLOADING = "📥 **Downloading File...\nLink:** ```{}```"
+    DOWNLOADING = "📥 **බාගතවෙමින් පවතී...\nLink:** ```{}```"
     
-    ALREADY_AUTH = "🔒 **Already authorized your Google Drive Account.**\n__Use /revoke to revoke the current account.__\n__Send me a direct link or File to Upload on Google Drive__"
+    ALREADY_AUTH = "🔒 **ඔබ ගිණුමකට අවසර සපුරා ඇත**\n /revoke එවා ගිණුම විසන්දිකර නැවත උත්සාහ කරන්න."
     
-    FLOW_IS_NONE = f"❗ **Invalid Code**\n__Run {BotCommands.Authorize[0]} first.__"
+    FLOW_IS_NONE = f"❗ **වැරදි කේතයකි**\n {BotCommands.Authorize[0]} සත්‍යාපනය වී නැවත උත්සහ කරන්න."
     
-    AUTH_SUCCESSFULLY = '🔐 **Authorized Google Drive account Successfully.**'
+    AUTH_SUCCESSFULLY = '🔐 **සාර්ථකව ගිණුමට අවසර ලබාගන්නා ලදී**'
     
-    INVALID_AUTH_CODE = '❗ **Invalid Code**\n__The code you have sent is invalid or already used before. Generate new one by the Authorization URL__'
+    INVALID_AUTH_CODE = '❗ **වැරදි කේතයකි**\n එවූ කේතය පෙර බාවිතා කල හෝ වැරදි කේතයකි . මුල සිට අරඹා නව කේතයක් ලබාගන්න'
     
-    AUTH_TEXT = "⛓️ **To Authorize your Google Drive account visit this [URL]({}) and send the generated code here.**\n__Visit the URL > Allow permissions > you will get a code > copy it > Send it here__"
+    AUTH_TEXT = "⛓️ **ඔබගේ Google ගිණුම සමග සම්බන්ධ වීමට  [URL]({})  හරහා ගොස් ලබාගත් කේතය බොට් වෙත එවන්න  **\n__Visit the URL > Allow permissions > you will get a code > copy it > Send it here__"
     
-    DOWNLOAD_TG_FILE = "📥 **Downloading File...**\n**Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
+    DOWNLOAD_TG_FILE = "📥 **බාගතවෙමින් පවතී...**\n**Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
     
-    PARENT_SET_SUCCESS = '🆔✅ **Custom Folder link set successfully.**\n__Your custom folder id - {}\nUse__ ```/{} clear``` __to clear it.__'
+    PARENT_SET_SUCCESS = '🆔✅ **එවූ නව ෆෝල්ඩරයේ ලින්කුව සාර්ථකව සකසන ලදී.**\n__Your custom folder id - {}\nUse__ ```/{} clear``` __to clear it.__'
     
-    PARENT_CLEAR_SUCCESS = f'🆔🚮 **Custom Folder ID Cleared Successfuly.**\n__Use__ ```/{BotCommands.SetFolder[0]} (Folder Link)``` __to set it back__.'
+    PARENT_CLEAR_SUCCESS = f'🆔🚮 **එම  Folder ID සාර්ථකව මකාදමන ලදී.**\n__Use__ ```/{BotCommands.SetFolder[0]} (Folder Link)``` __to set it back__.'
     
-    CURRENT_PARENT = "🆔 **Your Current Custom Folder ID - {}**\n__Use__ ```/{} (Folder link)``` __to change it.__"
+    CURRENT_PARENT = "🆔 **වත්මන් ෆෝල්ඩරයේ අංකය (ID) - {}**\n__Use__ ```/{} (Folder link)``` __to change it.__"
     
-    REVOKED = f"🔓 **Revoked current logged account successfully.**\n__Use /{BotCommands.Authorize[0]} to authenticate again and use this bot.__"
+    REVOKED = f"🔓 **පැවති ගිණුමෙන් සාර්ථකව ඉවත්විය **\n නව ගිණුමක් එකතු කිරිමට /{BotCommands.Authorize[0]} විධානය යොදාගන්න"
     
-    NOT_FOLDER_LINK = "❗ **Invalid folder link.**\n__The link you send its not belong to a folder.__"
+    NOT_FOLDER_LINK = "❗ **වැරදි ෆෝල්ඩර් ලින්කුවක්**\n__The link you send its not belong to a folder.__"
     
-    CLONING = "🗂️ **Cloning into Google Drive...**\n__G-Drive Link - {}__"
+    CLONING = "🗂️ **Google Drive වෙත පිටපත් කරමින්...**\n__G-Drive Link - {}__"
     
-    PROVIDE_GDRIVE_URL = "**❗ Provide a valid Google Drive URL along with commmand.**\n__Usage - /{} (GDrive Link)__"
+    PROVIDE_GDRIVE_URL = "**❗ නිවැරදි  Google Drive URL එකක් නිවැරදි විධානය සමග එවන්න.**\n__Usage - /{} (GDrive Link)__"
     
-    INSUFFICIENT_PERMISSONS = "❗ **You have insufficient permissions for this file.**\n__File id - {}__"
+    INSUFFICIENT_PERMISSONS = "❗ **ඔබගේ ගිණුමෙන් අවශ්‍ය තරම් අවසර ලැබී නොමැත**\n__File id - {}__"
     
-    DELETED_SUCCESSFULLY = "🗑️✅ **File Deleted Successfully.**\n__File deleted permanently !\nFile id - {}__"
+    DELETED_SUCCESSFULLY = "🗑️✅ගොනුව සාර්ථකව මකාදමන ලදී**\n__File deleted permanently !\nFile id - {}__"
     
-    WENT_WRONG = "⁉️ **ERROR: SOMETHING WENT WRONG**\n__Please try again later.__"
+    WENT_WRONG = "⁉️ **ERROR: කුමක් හෝ වැරදි ඇත**\n__Please try again later.__"
     
-    EMPTY_TRASH = "🗑️🚮**Trash Emptied Successfully !**"
+    EMPTY_TRASH = "🗑️🚮**ට්‍රෑෂ් ගොනු සාර්ථකව මකන ලදී!**"
     
-    PROVIDE_YTDL_LINK = "❗**Provide a valid YouTube-DL supported link.**"
+    PROVIDE_YTDL_LINK = "❗**නිවැරදි YOUTUBE ලින්කුවක් එවන්න**"
