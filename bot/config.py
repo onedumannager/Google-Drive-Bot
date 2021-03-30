@@ -33,7 +33,7 @@ class Messages:
         
         f"**Delete Google Drive Files**\n drive ගිණුමෙහි ඇති FILE හෝ ෆෝල්ඩර් Delete කිරිඉමට  /{BotCommands.Delete[0]} (File/Folder URL) ලෙස බෝට් වෙත එවන්න .\n එලෙසම TRASH files delete කිරිමට  /{BotCommands.EmptyTrash[0]} විධානය දෙන්න \n Note: අදාල ගොනු සදාකාලිකව මකියනුඇත. \n",
         
-        "**Rules & Precautions**\n__1. කිසිවිටෙකත් විශාල files කොපි කිරිඉමෙන් වලකින්න . එමගින් බොට් හෝ ඔබගේ ගොනු විකුර්ති විය හැක \n2. වරකට එක ඉල්ලීමක් බැගින් බොට් වෙත යොමු කරන්න.\n3. බොට්ව අවබාවිතයෙන් වලකින්න ඔබව බෑන් විය හැක.\",
+        "**Rules & Precautions**\n__1. කිසිවිටෙකත් විශාල files කොපි කිරිඉමෙන් වලකින්න .එමගින් බොට් හෝ ඔබගේ ගොනු විකුර්ති විය හැක  \n2.වරකට එක ඉල්ලීමක් බැගින් බොට් වෙත යොමු කරන්න..\n3. Don't send slow  it first.\n4. බොට්ව අවබාවිතයෙන් වලකින්න ඔබව බෑන් විය හැක",
         
         # Dont remove this ↓ if you respect developer.
         "**Developed by SLdevilX**"
